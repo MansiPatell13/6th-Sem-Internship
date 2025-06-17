@@ -65,11 +65,11 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 - **Understanding Core Libraries:**
   - Explored and researched all major libraries and frameworks involved:
-    - 🔐 JWT for authentication
-    - 📂 Multer for file handling
-    - 📊 SheetJS for Excel parsing
-    - 📈 Chart.js and 🎇 Three.js for visualizations
-    - 🧾 jsPDF and html2canvas for exporting charts
+    -  JWT for authentication
+    -  Multer for file handling
+    -  SheetJS for Excel parsing
+    -  Chart.js and Three.js for visualizations
+    -  jsPDF and html2canvas for exporting charts
 
 - **Work Distribution:**
   - Split the modules among the 6 team members.
