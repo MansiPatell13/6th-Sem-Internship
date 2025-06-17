@@ -58,5 +58,32 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - **Collaboration**: Slack / Discord / Google Meet
 
 ---
+#### 🗓️ Day 2 - [June 18, 2025]
 
+- **Project Exploration:**
+  - We delved deeper into the platform's structure and clarified the end-to-end functionality with our mentor.
+
+- **Understanding Core Libraries:**
+  - Explored and researched all major libraries and frameworks involved:
+    - 🔐 JWT for authentication
+    - 📂 Multer for file handling
+    - 📊 SheetJS for Excel parsing
+    - 📈 Chart.js and 🎇 Three.js for visualizations
+    - 🧾 jsPDF and html2canvas for exporting charts
+
+- **Work Distribution:**
+  - Split the modules among the 6 team members.
+  - Finalized responsibilities for frontend, backend, database schema, and feature logic.
+
+- **Timeline Finalization:**
+  - Refined the weekly deliverables to align with our capabilities and availability.
+  - Reconfirmed the roadmap:
+    - **Week 1**: Auth + Dashboard UI
+    - **Week 2**: File upload + DB setup
+    - **Week 3**: Charts + Axis Selection
+    - **Week 4**: History + Export
+    - **Week 5**: Admin Panel + Final Testing & Deployment
+
+- **Next Steps:**
+  - Begin implementing project setup and authentication logic from Day 3.
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
