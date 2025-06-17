@@ -58,7 +58,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - **Collaboration**: Slack / Discord / Google Meet
 
 ---
-#### 🗓️ Day 2 - [June 18, 2025]
+### Day 2 – June 17, 2025
 
 - **Project Exploration:**
   - We delved deeper into the platform's structure and clarified the end-to-end functionality with our mentor.
