@@ -86,4 +86,6 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 - **Next Steps:**
   - Begin implementing project setup and authentication logic from Day 3.
+
+
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
