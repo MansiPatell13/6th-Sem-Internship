@@ -86,6 +86,33 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 - **Next Steps:**
   - Begin implementing project setup and authentication logic from Day 3.
+    
+---
+### Day 3 – June 18, 2025
+
+#### 🔧 Project Setup & Layout Initialization
+- Initialized the backend with **Node.js** and **Express.js**.
+- Connected to MongoDB using **Mongoose**, set up basic server routes and `.env` config.
+- Installed necessary packages like `cors`, `dotenv`, `nodemon`, `mongoose`, `axios`.
+
+#### 💻 Frontend Bootstrapping
+- Set up the React frontend using **Vite** for a fast dev environment.
+- Integrated **Tailwind CSS** and configured a clean project structure:
+  - `components/`, `pages/`, `assets/`, `services/`, and `context/`
+- Built a responsive **navbar** and the initial layout for the **dashboard/homepage**.
+
+#### 🔐 Authentication Planning
+- Finalized the approach for user authentication using **JWT** and **bcrypt**.
+- Created placeholder routes and form components for **signup** and **login**.
+- Discussed token handling and private route protection strategy.
+
+#### 🤝 Team Coordination
+- Synced frontend-backend endpoints for seamless integration.
+- Divided tasks for implementing authentication logic starting Day 4.
+
+#### 🔜 Next Steps:
+- Implement user auth flow with JWT, hashed passwords, and protected routes for dashboard access.
+
 
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
