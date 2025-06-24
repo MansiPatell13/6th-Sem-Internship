@@ -22,96 +22,66 @@ This program provides hands-on experience with real-world projects, tools, and t
 This README is regularly updated to reflect my day-by-day learning and progress throughout the internship.
 
 ---
-
-## 📅 Internship Progress
+## 🗓️ Day-by-Day Progress
 
 ### Week 1
 
 ---
 
-## 🗓️ Day-by-Day Progress
-
 ### Day 1 – June 16, 2025
 
-#### 🔹 Introduction to Zidio Development
-- Overview of the company, its core services, development domains, and work culture.
-- Insight into the internship structure, communication channels, and technical expectations.
+#### 🏢 Internship Kickoff & Orientation
+- Attended onboarding session by the Zidio Development team.
+- Gained insights into the company’s services, project workflow, and tech ecosystem.
+- Understood internship structure, deliverables, and communication channels.
 
-#### 🔹 Baseline Assessment
-- Conducted a knowledge check to assess understanding of:
-  - HTML, CSS fundamentals  
-  - JavaScript ES6+  
-  - React.js basics and problem-solving approach
+#### 🧠 Skills Assessment & Team Formation
+- Completed a baseline assessment to evaluate familiarity with HTML, CSS, JS (ES6+), and React.
+- Assigned to a 6-member team and introduced to our first full-stack web project.
 
-#### 🔹 Team & Project Allocation
-- Interns were grouped into teams and assigned real-world project modules.
-- Received details about the assigned project: goals, scope, requirements, and deliverables.
-- Introduction to tools, tech stack, and libraries to be used during the project.
-
-#### 🧰 Tools & Technologies
+#### 🧰 Tools & Stack Overview
 - **Frontend**: React.js, Tailwind CSS / Bootstrap  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
-- **API Tools**: Axios, Postman  
-- **Design & UI**: Figma  
-- **Version Control**: Git, GitHub  
-- **Collaboration**: Slack / Discord / Google Meet
+- **Dev Tools**: GitHub, Postman, Figma, Slack/Discord, Google Meet
 
 ---
+
 ### Day 2 – June 17, 2025
 
-- **Project Exploration:**
-  - We delved deeper into the platform's structure and clarified the end-to-end functionality with our mentor.
+#### 🔍 Project Exploration & Tech Deep Dive
+- Walked through the project scope, functionality goals, and user flow with mentor.
+- Studied the following libraries:
+  - JWT (authentication), Multer (file handling), SheetJS (Excel), Chart.js, Three.js (visuals), jsPDF & html2canvas (exports)
 
-- **Understanding Core Libraries:**
-  - Explored and researched all major libraries and frameworks involved:
-    -  JWT for authentication
-    -  Multer for file handling
-    -  SheetJS for Excel parsing
-    -  Chart.js and Three.js for visualizations
-    -  jsPDF and html2canvas for exporting charts
+#### 🧩 Team Planning & Module Division
+- Split tasks across frontend, backend, DB schema, and UI logic.
+- Outlined responsibilities and finalized our roadmap:
+  - **Week 1**: Auth + Dashboard UI  
+  - **Week 2**: File Upload + DB Setup  
+  - **Week 3**: Charts + Axis  
+  - **Week 4**: History + Export  
+  - **Week 5**: Admin Panel + Deployment
 
-- **Work Distribution:**
-  - Split the modules among the 6 team members.
-  - Finalized responsibilities for frontend, backend, database schema, and feature logic.
-
-- **Timeline Finalization:**
-  - Refined the weekly deliverables to align with our capabilities and availability.
-  - Reconfirmed the roadmap:
-    - **Week 1**: Auth + Dashboard UI
-    - **Week 2**: File upload + DB setup
-    - **Week 3**: Charts + Axis Selection
-    - **Week 4**: History + Export
-    - **Week 5**: Admin Panel + Final Testing & Deployment
-
-- **Next Steps:**
-  - Begin implementing project setup and authentication logic from Day 3.
-    
 ---
+
 ### Day 3 – June 18, 2025
 
-#### 🔧 Project Setup & Layout Initialization
-- Initialized the backend with **Node.js** and **Express.js**.
-- Connected to MongoDB using **Mongoose**, set up basic server routes and `.env` config.
-- Installed necessary packages like `cors`, `dotenv`, `nodemon`, `mongoose`, `axios`.
+#### 🔧 Project Setup & Initial Layout
+- Set up backend server with **Express.js** and connected MongoDB using **Mongoose**.
+- Installed key dependencies: `dotenv`, `cors`, `axios`, `nodemon`.
 
 #### 💻 Frontend Bootstrapping
-- Set up the React frontend using **Vite** for a fast dev environment.
-- Integrated **Tailwind CSS** and configured a clean project structure:
-  - `components/`, `pages/`, `assets/`, `services/`, and `context/`
-- Built a responsive **navbar** and the initial layout for the **dashboard/homepage**.
+- Initialized frontend using **Vite + React**, and configured **Tailwind CSS**.
+- Created folder structure: `components/`, `pages/`, `services/`, `context/`, `assets/`
+- Designed responsive **navbar** and layout for the dashboard.
 
-#### 🔐 Authentication Planning
-- Finalized the approach for user authentication using **JWT** and **bcrypt**.
-- Created placeholder routes and form components for **signup** and **login**.
-- Discussed token handling and private route protection strategy.
+#### 🔐 Auth Strategy Discussion
+- Finalized use of **JWT** and **bcrypt** for authentication.
+- Planned token storage, session management, and protected route handling.
 
-#### 🤝 Team Coordination
-- Synced frontend-backend endpoints for seamless integration.
-- Divided tasks for implementing authentication logic starting Day 4.
+---
 
-#### 🔜 Next Steps:
-- Implement user auth flow with JWT, hashed passwords, and protected routes for dashboard access.
 ### Day 4 – June 19, 2025
 
 #### 🔐 JWT & User Authentication Setup
@@ -135,6 +105,10 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
+## 🔁 Week 2
+
+---
+
 ### Day 6 – June 23, 2025
 
 #### 🔄 Connecting Frontend with Backend (Auth)
@@ -144,7 +118,5 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Token received, stored, and used to access protected dashboard routes
 - Displayed login/signup success and error feedback using toast notifications.
 - Verified frontend and backend coordination through test user sessions.
-
-
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
