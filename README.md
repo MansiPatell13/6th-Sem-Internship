@@ -112,6 +112,38 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 #### 🔜 Next Steps:
 - Implement user auth flow with JWT, hashed passwords, and protected routes for dashboard access.
+### Day 4 – June 19, 2025
+
+#### 🔐 JWT & User Authentication Setup
+- Implemented secure user authentication using **JWT** and **bcrypt**.
+- Created backend routes for:
+  - **/api/register** – User registration with password hashing.
+  - **/api/login** – User login with JWT token generation.
+- Added middleware for protected routes to verify JWT tokens.
+- Stored JWT in local storage and planned secure token flow on the frontend.
+
+---
+
+### Day 5 – June 20, 2025
+
+#### 🎨 Landing Page + Auth Modules
+- Designed and built the **Landing Page UI** using Tailwind CSS with a modern, responsive layout.
+- Developed **Sign In**, **Sign Up**, and **Forgot Password** components with:
+  - Controlled input forms
+  - Error handling and form validation logic
+- Set up basic routing between pages using **React Router**.
+
+---
+
+### Day 6 – June 23, 2025
+
+#### 🔄 Connecting Frontend with Backend (Auth)
+- Integrated frontend forms with backend API using **Axios**.
+- Implemented user authentication flow:
+  - Register and login requests sent to backend
+  - Token received, stored, and used to access protected dashboard routes
+- Displayed login/signup success and error feedback using toast notifications.
+- Verified frontend and backend coordination through test user sessions.
 
 
 
