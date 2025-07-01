@@ -118,5 +118,70 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Token received, stored, and used to access protected dashboard routes
 - Displayed login/signup success and error feedback using toast notifications.
 - Verified frontend and backend coordination through test user sessions.
+### Day 7 – June 24, 2025
+
+#### 📁 File Upload Backend Setup
+- Installed and configured **Multer** for handling file uploads in Express.js.
+- Created API endpoint **/api/upload** to accept Excel files.
+- Added validation to restrict upload to Excel file types (.xls, .xlsx).
+- Planned folder structure for storing uploaded files temporarily.
+
+---
+
+### Day 8 – June 25, 2025
+
+#### 📊 Excel Parsing with SheetJS
+- Integrated **SheetJS (xlsx library)** into backend.
+- Implemented logic to:
+  - Read uploaded Excel files
+  - Convert sheet data to JSON format
+- Tested Excel parsing using sample files with varied structures.
+- Began defining data model schema to store parsed Excel data.
+
+---
+
+### Day 9 – June 26, 2025
+
+#### 🗄️ MongoDB Integration for Uploaded Data
+- Designed MongoDB schemas for storing:
+  - User-uploaded Excel file metadata
+  - Parsed sheet data as JSON arrays
+- Connected Excel parsing logic to save results in MongoDB collections.
+- Tested data persistence and retrieval via Mongoose queries.
+- Planned indexes for optimized data retrieval for charts.
+
+---
+
+### Day 10 – June 27, 2025
+
+#### 🔗 Frontend Integration for File Upload
+- Built a **file upload component** in React with Tailwind styling.
+- Integrated Axios calls to backend **/api/upload** route.
+- Added loading states, success/error handling, and toast notifications.
+- Displayed parsed Excel sheet preview on successful upload.
+- Validated front-to-back data flow end-to-end.
+
+---
+
+## 🔁 Week 2
+
+---
+### Day 11 – June 30, 2025
+
+#### 📈 Chart Rendering Setup
+- Began integrating **Chart.js** into the frontend for data visualization.
+- Installed Chart.js and configured it with React components.
+- Created dynamic chart components to render:
+  - Bar charts
+  - Line charts
+  - Pie charts
+- Implemented basic props to accept dynamic datasets for chart rendering.
+- Designed UI for **axis selection**:
+  - Dropdowns for users to choose X and Y columns from uploaded Excel data.
+- Tested chart rendering with static and fetched data to verify visuals and responsiveness.
+
+#### 🔜 Next Steps:
+- Finalize dynamic axis binding for charts.
+- Start exploring **Three.js** for advanced 3D visualizations in dashboards.
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
