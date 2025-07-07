@@ -24,7 +24,9 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 ---
 ## 🗓️ Day-by-Day Progress
 
-### Week 1
+---
+
+## 🔁 Week 1
 
 ---
 
@@ -163,7 +165,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-## 🔁 Week 2
+## 🔁 Week 3
 
 ---
 ### Day 11 – June 30, 2025
@@ -180,8 +182,70 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Dropdowns for users to choose X and Y columns from uploaded Excel data.
 - Tested chart rendering with static and fetched data to verify visuals and responsiveness.
 
+### Day 12 – July 1, 2025
+
+#### 🧮 Dynamic Axis Binding & Data Selection
+- Implemented dropdown-based axis selection using column headers from parsed Excel data.
+- Built logic to dynamically bind user-selected columns to chart axes.
+- Improved UI responsiveness and validation for unsupported data types.
+- Added fallback messaging for empty or incompatible datasets.
+
+---
+
+### Day 13 – July 2, 2025
+
+#### 📊 Chart Enhancements & Styling
+- Enhanced chart components with:
+  - Tooltips, legends, custom color schemes
+  - Gridlines and axis labels
+- Added toggles for users to switch chart types (bar, line, pie) on the fly.
+- Integrated loading indicators and error messages for chart rendering.
+- Ensured responsiveness across devices using Tailwind utilities.
+
+---
+
+### Day 14 – July 3, 2025
+
+#### 🧭 3D Visualization Exploration with Three.js
+- Installed and configured **Three.js** in the React environment.
+- Built a basic 3D scatterplot using dummy coordinates.
+- Researched libraries like `react-three-fiber` for seamless React-Three integration.
+- Assessed feasibility of using 3D charts for visualizing multi-dimensional Excel data.
+
+---
+
+### Day 15 – July 4, 2025
+
+#### 🧪 Data Testing & Component Refinement
+- Performed end-to-end testing using multiple Excel file formats.
+- Fixed edge cases: missing headers, null values, non-numeric columns.
+- Refactored chart components into reusable modules.
+- Finalized axis selection + chart rendering as stable core features.
+
+---
+
+## 🔁 Week 4
+
+---
+### Day 16 – July 7, 2025
+
+#### 💾 History Saving System (Phase 1)
+- Started implementing the **history-saving feature** for user sessions.
+- Designed MongoDB schema to store:
+  - Uploaded file metadata
+  - Selected chart type
+  - Axis configuration
+  - Timestamp and user ID
+- Created backend API endpoint `/api/history/save` to store chart sessions.
+
+#### 🖥️ UI Work
+- Added a "Save Session" button on the dashboard.
+- Displayed toast notifications for save success/failure.
+- Planned frontend layout for viewing saved histories.
+
 #### 🔜 Next Steps:
-- Finalize dynamic axis binding for charts.
-- Start exploring **Three.js** for advanced 3D visualizations in dashboards.
+- Build UI for viewing past chart sessions.
+- Start working on export feature (PDF/image download) for visualizations.
+
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
