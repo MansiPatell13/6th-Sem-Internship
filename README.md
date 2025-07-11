@@ -243,9 +243,60 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Displayed toast notifications for save success/failure.
 - Planned frontend layout for viewing saved histories.
 
+### Day 17 – July 8, 2025
+
+#### 🗂️ Viewing Saved History
+- Created frontend page to display user’s saved chart sessions.
+- Implemented API call to `/api/history/user/:id` to fetch saved charts.
+- Rendered session list with:
+  - Chart type preview
+  - Upload date
+  - Axis configurations
+- Added option to reload saved session into the dashboard for further edits.
+
+---
+
+### Day 18 – July 9, 2025
+
+#### 📝 Export Feature: PDF & Image Downloads
+- Integrated **jsPDF** and **html2canvas** to capture chart visualizations.
+- Built download buttons for:
+  - Exporting charts as PNG images.
+  - Generating PDFs with chart snapshots and axis details.
+- Tested export functionality with different chart types and sizes.
+- Handled scaling issues for high-resolution downloads.
+
+---
+
+### Day 19 – July 10, 2025
+
+#### 🤖 AI Integration Exploration
+- Researched possible AI features for the dashboard:
+  - Auto-suggestions for chart types based on data patterns.
+  - Predictive insights from uploaded datasets.
+- Started experimenting with simple statistical analysis for:
+  - Detecting numeric vs. categorical columns
+  - Recommending suitable chart types
+- Discussed backend vs. frontend approaches for integrating AI modules.
+
+---
+
+### Day 20 – July 11, 2025
+
+#### ⚙️ Implementing AI Chart Suggestions
+- Developed initial backend logic to analyze uploaded Excel data.
+- Created API endpoint `/api/ai/suggest-chart`:
+  - Analyzes data columns
+  - Returns recommended chart types (e.g., bar, pie, scatter)
+- Built frontend logic to:
+  - Display AI suggestions after upload
+  - Allow users to accept or override recommendations
+- Tested with various datasets to validate suggestion accuracy.
+
 #### 🔜 Next Steps:
-- Build UI for viewing past chart sessions.
-- Start working on export feature (PDF/image download) for visualizations.
+- Refine AI logic for more complex data patterns.
+- Begin work on admin panel and user management in Week 5.
+
 
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
