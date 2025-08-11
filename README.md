@@ -22,26 +22,26 @@ This program provides hands-on experience with real-world projects, tools, and t
 This README is regularly updated to reflect my day-by-day learning and progress throughout the internship.
 
 ---
-## 🗓️ Day-by-Day Progress
+##  Day-by-Day Progress
 
 ---
 
-## 🔁 Week 1
+##  Week 1
 
 ---
 
 ### Day 1 – June 16, 2025
 
-#### 🏢 Internship Kickoff & Orientation
+#### Internship Kickoff & Orientation
 - Attended onboarding session by the Zidio Development team.
 - Gained insights into the company’s services, project workflow, and tech ecosystem.
 - Understood internship structure, deliverables, and communication channels.
 
-#### 🧠 Skills Assessment & Team Formation
+#### Skills Assessment & Team Formation
 - Completed a baseline assessment to evaluate familiarity with HTML, CSS, JS (ES6+), and React.
 - Assigned to a 6-member team and introduced to our first full-stack web project.
 
-#### 🧰 Tools & Stack Overview
+#### Tools & Stack Overview
 - **Frontend**: React.js, Tailwind CSS / Bootstrap  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
@@ -51,12 +51,12 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 2 – June 17, 2025
 
-#### 🔍 Project Exploration & Tech Deep Dive
+#### Project Exploration & Tech Deep Dive
 - Walked through the project scope, functionality goals, and user flow with mentor.
 - Studied the following libraries:
   - JWT (authentication), Multer (file handling), SheetJS (Excel), Chart.js, Three.js (visuals), jsPDF & html2canvas (exports)
 
-#### 🧩 Team Planning & Module Division
+#### Team Planning & Module Division
 - Split tasks across frontend, backend, DB schema, and UI logic.
 - Outlined responsibilities and finalized our roadmap:
   - **Week 1**: Auth + Dashboard UI  
@@ -69,16 +69,16 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 3 – June 18, 2025
 
-#### 🔧 Project Setup & Initial Layout
+#### Project Setup & Initial Layout
 - Set up backend server with **Express.js** and connected MongoDB using **Mongoose**.
 - Installed key dependencies: `dotenv`, `cors`, `axios`, `nodemon`.
 
-#### 💻 Frontend Bootstrapping
+#### Frontend Bootstrapping
 - Initialized frontend using **Vite + React**, and configured **Tailwind CSS**.
 - Created folder structure: `components/`, `pages/`, `services/`, `context/`, `assets/`
 - Designed responsive **navbar** and layout for the dashboard.
 
-#### 🔐 Auth Strategy Discussion
+#### Auth Strategy Discussion
 - Finalized use of **JWT** and **bcrypt** for authentication.
 - Planned token storage, session management, and protected route handling.
 
@@ -86,7 +86,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 4 – June 19, 2025
 
-#### 🔐 JWT & User Authentication Setup
+#### JWT & User Authentication Setup
 - Implemented secure user authentication using **JWT** and **bcrypt**.
 - Created backend routes for:
   - **/api/register** – User registration with password hashing.
@@ -98,7 +98,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 5 – June 20, 2025
 
-#### 🎨 Landing Page + Auth Modules
+#### Landing Page + Auth Modules
 - Designed and built the **Landing Page UI** using Tailwind CSS with a modern, responsive layout.
 - Developed **Sign In**, **Sign Up**, and **Forgot Password** components with:
   - Controlled input forms
@@ -107,13 +107,13 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-## 🔁 Week 2
+## Week 2
 
 ---
 
 ### Day 6 – June 23, 2025
 
-#### 🔄 Connecting Frontend with Backend (Auth)
+#### Connecting Frontend with Backend (Auth)
 - Integrated frontend forms with backend API using **Axios**.
 - Implemented user authentication flow:
   - Register and login requests sent to backend
@@ -122,7 +122,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Verified frontend and backend coordination through test user sessions.
 ### Day 7 – June 24, 2025
 
-#### 📁 File Upload Backend Setup
+#### File Upload Backend Setup
 - Installed and configured **Multer** for handling file uploads in Express.js.
 - Created API endpoint **/api/upload** to accept Excel files.
 - Added validation to restrict upload to Excel file types (.xls, .xlsx).
@@ -132,7 +132,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 8 – June 25, 2025
 
-#### 📊 Excel Parsing with SheetJS
+#### Excel Parsing with SheetJS
 - Integrated **SheetJS (xlsx library)** into backend.
 - Implemented logic to:
   - Read uploaded Excel files
@@ -144,7 +144,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 9 – June 26, 2025
 
-#### 🗄️ MongoDB Integration for Uploaded Data
+#### MongoDB Integration for Uploaded Data
 - Designed MongoDB schemas for storing:
   - User-uploaded Excel file metadata
   - Parsed sheet data as JSON arrays
@@ -156,7 +156,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 10 – June 27, 2025
 
-#### 🔗 Frontend Integration for File Upload
+#### Frontend Integration for File Upload
 - Built a **file upload component** in React with Tailwind styling.
 - Integrated Axios calls to backend **/api/upload** route.
 - Added loading states, success/error handling, and toast notifications.
@@ -165,12 +165,12 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-## 🔁 Week 3
+## Week 3
 
 ---
 ### Day 11 – June 30, 2025
 
-#### 📈 Chart Rendering Setup
+#### Chart Rendering Setup
 - Began integrating **Chart.js** into the frontend for data visualization.
 - Installed Chart.js and configured it with React components.
 - Created dynamic chart components to render:
@@ -184,7 +184,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 12 – July 1, 2025
 
-#### 🧮 Dynamic Axis Binding & Data Selection
+#### Dynamic Axis Binding & Data Selection
 - Implemented dropdown-based axis selection using column headers from parsed Excel data.
 - Built logic to dynamically bind user-selected columns to chart axes.
 - Improved UI responsiveness and validation for unsupported data types.
@@ -194,7 +194,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 13 – July 2, 2025
 
-#### 📊 Chart Enhancements & Styling
+#### Chart Enhancements & Styling
 - Enhanced chart components with:
   - Tooltips, legends, custom color schemes
   - Gridlines and axis labels
@@ -206,7 +206,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 14 – July 3, 2025
 
-#### 🧭 3D Visualization Exploration with Three.js
+#### 3D Visualization Exploration with Three.js
 - Installed and configured **Three.js** in the React environment.
 - Built a basic 3D scatterplot using dummy coordinates.
 - Researched libraries like `react-three-fiber` for seamless React-Three integration.
@@ -216,7 +216,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 15 – July 4, 2025
 
-#### 🧪 Data Testing & Component Refinement
+#### Data Testing & Component Refinement
 - Performed end-to-end testing using multiple Excel file formats.
 - Fixed edge cases: missing headers, null values, non-numeric columns.
 - Refactored chart components into reusable modules.
@@ -224,12 +224,12 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-## 🔁 Week 4
+## Week 4
 
 ---
 ### Day 16 – July 7, 2025
 
-#### 💾 History Saving System (Phase 1)
+#### History Saving System (Phase 1)
 - Started implementing the **history-saving feature** for user sessions.
 - Designed MongoDB schema to store:
   - Uploaded file metadata
@@ -238,14 +238,14 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Timestamp and user ID
 - Created backend API endpoint `/api/history/save` to store chart sessions.
 
-#### 🖥️ UI Work
+#### UI Work
 - Added a "Save Session" button on the dashboard.
 - Displayed toast notifications for save success/failure.
 - Planned frontend layout for viewing saved histories.
 
 ### Day 17 – July 8, 2025
 
-#### 🗂️ Viewing Saved History
+#### Viewing Saved History
 - Created frontend page to display user’s saved chart sessions.
 - Implemented API call to `/api/history/user/:id` to fetch saved charts.
 - Rendered session list with:
@@ -258,7 +258,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 18 – July 9, 2025
 
-#### 📝 Export Feature: PDF & Image Downloads
+#### Export Feature: PDF & Image Downloads
 - Integrated **jsPDF** and **html2canvas** to capture chart visualizations.
 - Built download buttons for:
   - Exporting charts as PNG images.
@@ -270,7 +270,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 19 – July 10, 2025
 
-#### 🤖 AI Integration Exploration
+#### AI Integration Exploration
 - Researched possible AI features for the dashboard:
   - Auto-suggestions for chart types based on data patterns.
   - Predictive insights from uploaded datasets.
@@ -283,7 +283,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ### Day 20 – July 11, 2025
 
-#### ⚙️ Implementing AI Chart Suggestions
+#### Implementing AI Chart Suggestions
 - Developed initial backend logic to analyze uploaded Excel data.
 - Created API endpoint `/api/ai/suggest-chart`:
   - Analyzes data columns
@@ -332,6 +332,56 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Prepared production readiness checklist:
   - Environment variables management, CORS policy, logging, and rate limiting considerations.
 - Containerization research: drafted Dockerfile for backend and basic deployment plan.
+
+---
+
+## Week 6 — Blogging App
+
+---
+
+### Day 28 – July 21, 2025
+
+#### Blogging App Boilerplate
+- Created dedicated repository structure for the blogging application.
+- Implemented reusable project templates for frontend and backend:
+  - **Frontend**: Vite + React, Tailwind setup, base layout and authentication pages.
+  - **Backend**: Express skeleton, central routes, and error handling middleware.
+
+---
+
+### Day 29 – July 22, 2025
+
+#### Authentication: Extended Features
+- Designed refresh token strategy for improved session management.
+- Added password reset workflow endpoints:
+  - `/api/auth/forgot-password`
+  - `/api/auth/reset-password`
+- Implemented server-side rate limiting for authentication endpoints to mitigate brute-force attempts.
+
+---
+
+### Day 30 – July 23, 2025
+
+#### Frontend Authentication Integration
+- Connected login, signup, and reset password UI to backend endpoints using Axios.
+- Implemented global authentication context to manage user info and tokens across the app.
+- Added protected-route higher-order component and admin-route wrapper for role-based access.
+
+---
+
+### Day 31 – July 24, 2025
+
+#### Security Hardening
+- Added input validation on both frontend and backend using Joi for request validation.
+- Implemented `helmet` and `express-rate-limit` on the backend for additional security measures.
+
+---
+
+### Day 32 – July 25, 2025
+
+#### DevOps: Continuous Integration Basics
+- Configured GitHub Actions workflow to run linting and backend tests on push.
+- Set up ESLint and Prettier configurations for consistent code style.
 
 
 
