@@ -383,6 +383,57 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Configured GitHub Actions workflow to run linting and backend tests on push.
 - Set up ESLint and Prettier configurations for consistent code style.
 
+---
+
+## Week 7 — Blog Schema, API, and Rich Text Editor (July 28, 2025 – August 1, 2025)
+
+---
+
+### Day 35 – July 28, 2025
+
+#### Blog Schema Design
+- Finalized blog schema in MongoDB using Mongoose.
+- Defined fields: `title`, `slug`, `content` (Quill Delta or HTML), `excerpt`, `authorId`, `tags`, `categories`, `coverImageUrl`, `likes[]`, `comments[]`, `createdAt`, `updatedAt`, `status`.
+- Added indexes for `slug`, `tags`, and full-text search on `title` and `content`.
+
+---
+
+### Day 36 – July 29, 2025
+
+#### Blog APIs Implementation
+- Implemented RESTful blog APIs:
+  - `GET /api/blogs` (with pagination, sort, filter options)
+  - `GET /api/blogs/:slug`
+  - `POST /api/blogs` (protected)
+  - `PUT /api/blogs/:id` (author or admin)
+  - `DELETE /api/blogs/:id` (author or admin)
+- Added query parameters for tag/category filtering and keyword search.
+
+---
+
+### Day 37 – July 30, 2025
+
+#### Rich Text Editor Integration (React Quill)
+- Integrated React Quill in CreateBlog and EditBlog components.
+- Implemented content saving strategy to store both sanitized HTML and Quill Delta.
+- Added content sanitization before saving to prevent XSS.
+
+---
+
+### Day 38 – July 31, 2025
+
+#### Image Upload Support
+- Implemented Cloudinary integration for image uploads from the editor and for cover images.
+- Created backend route `POST /api/uploads/image` to upload files to Cloudinary and return secure URLs.
+
+---
+
+### Day 39 – August 1, 2025
+
+#### Testing Blog CRUD
+- Performed end-to-end tests for blog creation, edit, and deletion flows.
+- Validated permission checks to ensure only owners or admins can edit or delete their posts.
+
 
 
 
