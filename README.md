@@ -293,7 +293,9 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Allow users to accept or override recommendations
 - Tested with various datasets to validate suggestion accuracy.
 
-## Week 5 — Admin Panel, Testing and Deployment (July 14, 2025 – July 18, 2025)
+---
+
+## Week 5 
 
 ---
 
