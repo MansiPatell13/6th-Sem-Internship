@@ -486,6 +486,62 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Added frontend controls for searching by keyword and filtering by tags and category on the Home page.
 - Implemented debounced search input to reduce unnecessary API calls.
 
+---
+
+## Week 9 
+
+---
+
+### Day 49 – August 11, 2025
+
+#### Profile Management
+- Implemented Profile page displaying authored blogs, saved/blogmarked posts, and account settings.
+- Added API endpoints:
+  - `GET /api/users/:id/blogs` — fetch authored posts.
+  - `GET /api/users/:id/saved` — fetch bookmarked posts.
+  - `PUT /api/users/:id` — update profile details.
+- Integrated Cloudinary for profile picture uploads.
+
+---
+
+### Day 50 – August 12, 2025
+
+#### Advanced Search & Filtering Enhancements
+- Extended `GET /api/blogs` to accept complex query parameters:
+  - `?q=` keyword search (full-text)
+  - `?tags=` tag1,tag2
+  - `?category=` categoryName
+  - `?author=` authorId
+  - `?sort=` popular | newest | oldest
+- Implemented combined search + filter UI on the Home page, including a multi-select tag dropdown and clear filters option.
+
+---
+
+### Day 51 – August 13, 2025
+
+#### Backend Query Optimization
+- Added MongoDB indexes for frequently searched fields to improve performance.
+- Optimized aggregation pipelines for combined filters and sorting.
+- Reduced response times for large datasets.
+
+---
+
+### Day 52 – August 14, 2025
+
+#### UI Enhancements
+- Styled profile page for responsive design and mobile usability.
+- Added interactive filter chips for quick filter removal.
+- Improved dropdown accessibility for keyboard navigation.
+
+---
+
+### Day 53 – August 15, 2025
+
+#### Testing & Bug Fixes
+- Validated profile updates, ensuring correct server responses and data persistence.
+- Fixed search and filter edge cases.
+- Ensured filters persist after navigation and page reloads.
+
 
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
