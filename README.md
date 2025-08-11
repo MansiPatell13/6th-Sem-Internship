@@ -542,6 +542,24 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Fixed search and filter edge cases.
 - Ensured filters persist after navigation and page reloads.
 
+---
+
+## Week 10 
+
+---
+
+### Day 50 – August 18, 2025
+
+#### Admin Dashboard: Analytics Overview
+- Began building the admin dashboard interface.
+- Added placeholders for key metrics:
+  - Total users
+  - Total posts
+  - Posts per category
+  - Recent flagged comments
+- Set up Chart.js integration for graphical representation of analytics data.
+- Created backend endpoint stubs to serve analytics statistics to the dashboard.
+
 
 
 _This document will be updated daily to reflect the continued learning and contributions throughout the internship at Zidio Development._
