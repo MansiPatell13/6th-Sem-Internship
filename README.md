@@ -293,9 +293,46 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Allow users to accept or override recommendations
 - Tested with various datasets to validate suggestion accuracy.
 
-#### 🔜 Next Steps:
-- Refine AI logic for more complex data patterns.
-- Begin work on admin panel and user management in Week 5.
+## Week 5 — Admin Panel, Testing and Deployment (July 14, 2025 – July 18, 2025)
+
+---
+
+### Day 21 – July 14, 2025
+
+#### Admin Panel: Initial Design and Routes
+- Planned admin features and UI layout with the mentor.
+- Designed routes and protected admin endpoints in the backend:
+  - `/api/admin/login`, `/api/admin/users`, `/api/admin/blogs`, `/api/admin/tags`.
+- Added middleware to verify admin role from JWT token.
+
+### Day 22 – July 15, 2025
+
+#### Admin UI: Component Scaffolding
+- Built React components for the admin dashboard: `AdminLayout`, `UsersList`, `BlogsList`, `TagManager`.
+- Implemented client-side routing for admin pages using React Router and role-based route guards.
+
+### Day 23 – July 16, 2025
+
+#### Backend: Admin Actions
+- Implemented backend logic for admin actions:
+  - Fetch all users, block/unblock users, delete users.
+  - Fetch all blogs, delete blog posts, mark posts as reviewed.
+- Added pagination for admin endpoints to handle large datasets.
+
+### Day 24 – July 17, 2025
+
+#### Testing: Unit and Integration
+- Wrote unit tests for key backend services (authentication, blog CRUD) using Jest.
+- Performed integration testing of admin endpoints using Postman collections.
+- Fixed issues found during testing: token expiry handling, role verification edge cases.
+
+### Day 25 – July 18, 2025
+
+#### Deployment Preparation
+- Prepared production readiness checklist:
+  - Environment variables management, CORS policy, logging, and rate limiting considerations.
+- Containerization research: drafted Dockerfile for backend and basic deployment plan.
+
 
 
 
