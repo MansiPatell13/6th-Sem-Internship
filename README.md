@@ -385,7 +385,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-## Week 7 — Blog Schema, API, and Rich Text Editor (July 28, 2025 – August 1, 2025)
+## Week 7 
 
 ---
 
@@ -434,6 +434,55 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Performed end-to-end tests for blog creation, edit, and deletion flows.
 - Validated permission checks to ensure only owners or admins can edit or delete their posts.
 
+---
+
+## Week 8 
+
+---
+
+### Day 42 – August 4, 2025
+
+#### Blog UI: List & Single View
+- Built Home page UI to list blogs with excerpts, tags, author, and publish date.
+- Implemented SingleBlog page displaying full content, cover image, author details, and metadata.
+
+---
+
+### Day 43 – August 5, 2025
+
+#### Like System
+- Implemented like/unlike functionality:
+  - `POST /api/blogs/:id/like` toggles like status for authenticated users.
+  - Backend stores user IDs in `likes` array and prevents duplicate likes.
+- Frontend shows live like count and toggle state with optimistic UI updates.
+
+---
+
+### Day 44 – August 6, 2025
+
+#### Comment System
+- Implemented comment posting and retrieval:
+  - `POST /api/blogs/:id/comments` — add a comment.
+  - `GET /api/blogs/:id/comments` — list comments with pagination.
+  - `DELETE /api/blogs/:id/comments/:commentId` — delete comment (author or admin only).
+- Added support for nested replies (single-level) and timestamps.
+
+---
+
+### Day 45 – August 7, 2025
+
+#### UI Polishing & UX
+- Added smooth transitions for like and comment actions.
+- Improved mobile responsiveness for comment input and action buttons.
+- Added validation and moderation indicators for flagged or removed comments.
+
+---
+
+### Day 46 – August 8, 2025
+
+#### Search & Filter Controls (Initial)
+- Added frontend controls for searching by keyword and filtering by tags and category on the Home page.
+- Implemented debounced search input to reduce unnecessary API calls.
 
 
 
