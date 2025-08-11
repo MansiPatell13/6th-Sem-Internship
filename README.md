@@ -120,6 +120,9 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Token received, stored, and used to access protected dashboard routes
 - Displayed login/signup success and error feedback using toast notifications.
 - Verified frontend and backend coordination through test user sessions.
+
+---
+
 ### Day 7 – June 24, 2025
 
 #### File Upload Backend Setup
@@ -243,6 +246,8 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 - Displayed toast notifications for save success/failure.
 - Planned frontend layout for viewing saved histories.
 
+---
+
 ### Day 17 – July 8, 2025
 
 #### Viewing Saved History
@@ -307,11 +312,15 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - `/api/admin/login`, `/api/admin/users`, `/api/admin/blogs`, `/api/admin/tags`.
 - Added middleware to verify admin role from JWT token.
 
+---
+
 ### Day 22 – July 15, 2025
 
 #### Admin UI: Component Scaffolding
 - Built React components for the admin dashboard: `AdminLayout`, `UsersList`, `BlogsList`, `TagManager`.
 - Implemented client-side routing for admin pages using React Router and role-based route guards.
+
+---
 
 ### Day 23 – July 16, 2025
 
@@ -321,12 +330,16 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - Fetch all blogs, delete blog posts, mark posts as reviewed.
 - Added pagination for admin endpoints to handle large datasets.
 
+---
+
 ### Day 24 – July 17, 2025
 
 #### Testing: Unit and Integration
 - Wrote unit tests for key backend services (authentication, blog CRUD) using Jest.
 - Performed integration testing of admin endpoints using Postman collections.
 - Fixed issues found during testing: token expiry handling, role verification edge cases.
+
+---
 
 ### Day 25 – July 18, 2025
 
@@ -341,7 +354,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 28 – July 21, 2025
+### Day 26 – July 21, 2025
 
 #### Blogging App Boilerplate
 - Created dedicated repository structure for the blogging application.
@@ -351,7 +364,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 29 – July 22, 2025
+### Day 27 – July 22, 2025
 
 #### Authentication: Extended Features
 - Designed refresh token strategy for improved session management.
@@ -362,7 +375,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 30 – July 23, 2025
+### Day 28 – July 23, 2025
 
 #### Frontend Authentication Integration
 - Connected login, signup, and reset password UI to backend endpoints using Axios.
@@ -371,7 +384,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 31 – July 24, 2025
+### Day 29 – July 24, 2025
 
 #### Security Hardening
 - Added input validation on both frontend and backend using Joi for request validation.
@@ -379,7 +392,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 32 – July 25, 2025
+### Day 30 – July 25, 2025
 
 #### DevOps: Continuous Integration Basics
 - Configured GitHub Actions workflow to run linting and backend tests on push.
@@ -391,7 +404,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 35 – July 28, 2025
+### Day 31 – July 28, 2025
 
 #### Blog Schema Design
 - Finalized blog schema in MongoDB using Mongoose.
@@ -400,7 +413,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 36 – July 29, 2025
+### Day 32 – July 29, 2025
 
 #### Blog APIs Implementation
 - Implemented RESTful blog APIs:
@@ -413,7 +426,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 37 – July 30, 2025
+### Day 33 – July 30, 2025
 
 #### Rich Text Editor Integration (React Quill)
 - Integrated React Quill in CreateBlog and EditBlog components.
@@ -422,7 +435,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 38 – July 31, 2025
+### Day 34 – July 31, 2025
 
 #### Image Upload Support
 - Implemented Cloudinary integration for image uploads from the editor and for cover images.
@@ -430,7 +443,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 39 – August 1, 2025
+### Day 35 – August 1, 2025
 
 #### Testing Blog CRUD
 - Performed end-to-end tests for blog creation, edit, and deletion flows.
@@ -442,7 +455,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 42 – August 4, 2025
+### Day 36 – August 4, 2025
 
 #### Blog UI: List & Single View
 - Built Home page UI to list blogs with excerpts, tags, author, and publish date.
@@ -450,7 +463,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 43 – August 5, 2025
+### Day 37 – August 5, 2025
 
 #### Like System
 - Implemented like/unlike functionality:
@@ -460,7 +473,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 44 – August 6, 2025
+### Day 38 – August 6, 2025
 
 #### Comment System
 - Implemented comment posting and retrieval:
@@ -471,7 +484,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 45 – August 7, 2025
+### Day 39 – August 7, 2025
 
 #### UI Polishing & UX
 - Added smooth transitions for like and comment actions.
@@ -480,7 +493,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 46 – August 8, 2025
+### Day 40 – August 8, 2025
 
 #### Search & Filter Controls (Initial)
 - Added frontend controls for searching by keyword and filtering by tags and category on the Home page.
@@ -492,7 +505,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
-### Day 49 – August 11, 2025
+### Day 41 – August 11, 2025
 
 #### Profile Management
 - Implemented Profile page displaying authored blogs, saved/blogmarked posts, and account settings.
@@ -502,63 +515,7 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - `PUT /api/users/:id` — update profile details.
 - Integrated Cloudinary for profile picture uploads.
 
----
 
-### Day 50 – August 12, 2025
-
-#### Advanced Search & Filtering Enhancements
-- Extended `GET /api/blogs` to accept complex query parameters:
-  - `?q=` keyword search (full-text)
-  - `?tags=` tag1,tag2
-  - `?category=` categoryName
-  - `?author=` authorId
-  - `?sort=` popular | newest | oldest
-- Implemented combined search + filter UI on the Home page, including a multi-select tag dropdown and clear filters option.
-
----
-
-### Day 51 – August 13, 2025
-
-#### Backend Query Optimization
-- Added MongoDB indexes for frequently searched fields to improve performance.
-- Optimized aggregation pipelines for combined filters and sorting.
-- Reduced response times for large datasets.
-
----
-
-### Day 52 – August 14, 2025
-
-#### UI Enhancements
-- Styled profile page for responsive design and mobile usability.
-- Added interactive filter chips for quick filter removal.
-- Improved dropdown accessibility for keyboard navigation.
-
----
-
-### Day 53 – August 15, 2025
-
-#### Testing & Bug Fixes
-- Validated profile updates, ensuring correct server responses and data persistence.
-- Fixed search and filter edge cases.
-- Ensured filters persist after navigation and page reloads.
-
----
-
-## Week 10 
-
----
-
-### Day 50 – August 18, 2025
-
-#### Admin Dashboard: Analytics Overview
-- Began building the admin dashboard interface.
-- Added placeholders for key metrics:
-  - Total users
-  - Total posts
-  - Posts per category
-  - Recent flagged comments
-- Set up Chart.js integration for graphical representation of analytics data.
-- Created backend endpoint stubs to serve analytics statistics to the dashboard.
 
 
 
