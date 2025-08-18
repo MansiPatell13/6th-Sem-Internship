@@ -505,6 +505,8 @@ This README is regularly updated to reflect my day-by-day learning and progress 
 
 ---
 
+---
+
 ### Day 41 – August 11, 2025
 
 #### Profile Management
@@ -515,7 +517,50 @@ This README is regularly updated to reflect my day-by-day learning and progress 
   - `PUT /api/users/:id` — update profile details.
 - Integrated Cloudinary for profile picture uploads.
 
+---
 
+### Day 42 – August 12, 2025
+
+#### Advanced Search & Filtering Enhancements
+- Extended backend `GET /api/blogs` to accept advanced query parameters:
+  - `?q=` keyword search (full-text)
+  - `?tags=tag1,tag2`
+  - `?category=categoryName`
+  - `?author=authorId`
+  - `?sort=popular|newest|oldest`
+- Implemented combined search + filter UI on the Home page.
+- Added multi-select dropdown for tags and category filters.
+- Added “Clear Filters” option for improved user experience.
+
+---
+
+### Day 43 – August 13, 2025
+
+#### Search UI and Performance Optimization
+- Integrated debounced search input to minimize redundant API calls.
+- Optimized backend queries using indexes on `tags`, `category`, and `authorId`.
+- Improved frontend state management for filters and search results.
+- Validated combined queries (e.g., keyword + tag + category).
+
+---
+
+### Day 44 – August 14, 2025
+
+#### Final Bug Fixes & Polishing
+- Fixed issues with saved posts not syncing immediately after bookmark/unbookmark actions.
+- Resolved minor layout inconsistencies on the Profile and Blog List pages.
+- Improved responsiveness of filter controls on mobile devices.
+- Updated error handling for invalid or expired profile update requests.
+
+---
+
+### Day 45 – August 15, 2025
+
+#### Internship Completion & Final Review
+- Conducted final walkthrough of all features: authentication, blogs, comments, likes, profile, and search.
+- Documented APIs and user workflows for handover.
+- Performed final code cleanup and repository organization.
+- Submitted project deliverables and wrapped up internship tasks.
 
 
 
