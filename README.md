@@ -5,8 +5,9 @@ This repository documents the daily progress, tasks, and learning outcomes from 
 
 Repository for Project 1 - Excel Analytics Platform:  https://github.com/MansiPatell13/Excel-Analytics
 
-
 Repository for Project 2 - Blogging Platform: https://github.com/MansiPatell13/blogsInk
+
+
 ---
 
 ## 📌 Introduction
