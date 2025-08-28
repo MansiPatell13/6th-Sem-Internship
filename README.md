@@ -4,6 +4,8 @@ Welcome to the GitHub repository for my Web Development Internship 2025 at **Zid
 This repository documents the daily progress, tasks, and learning outcomes from my internship journey, focusing on full-stack web development using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js) and modern development practices.
 
 Repository for Project 1 - Excel Analytics Platform:  https://github.com/MansiPatell13/Excel-Analytics
+
+
 Repository for Project 2 - Blogging Platform: https://github.com/MansiPatell13/blogsInk
 ---
 
